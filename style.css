@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+
+}
+
+header{
+    position: fixed;
+    opacity: 0.8;
+    width: 100%;
+    background: linear-gradient(to right,white 20%,40%, black);
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+header img{
+    height: 7vh;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    width: 21%;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 9%;
+}
+
+section{
+    padding: 4% 9.5% 4% 9.5%;
+}
+
+.cafe {
+    height:43vh;
+    background-color: blue;
+    padding-top: 17%;
+    background-image: url(./images/sample_key.jpg); 
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.cafe .name_campany{  
+    padding-left: 10%;
+    height: 10vh;
+    
+}
+
+div .diccafe{
+    font-size:40px;
+    font-weight:470;
+}
+
+.ingredient{
+    margin-left:9.5%;
+    margin-right:9.5%;
+    margin-bottom: 3%;
+}
+
+.preambule {
+    margin: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.taille2em{
+    font-size: 40px;
+}
+
+.epaisseur{
+    font-weight: bold;
+}
+
+.ingredient .corps{
+    display: flex;
+    gap: 5%;
+    line-height:24px;
+}
+
+.ingredient img{
+   width: 35%;
+   height: 55vh; 
+}
+
+.ingredient .corps div{
+    font-size: 16px;
+    font-family: 'Times New Roman',serif;
+}
+
+.ingredient .corps .taille1em{
+    font-size: 12px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    background-image: url(./images/sample_menu_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#menu{
+   font-size: 40px;
+   padding-bottom: 5%;    
+}
+
+
+
+.menu .souligner{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+    padding-bottom:2%;
+    font-size: 30px;
+    color: rgb(88, 39, 3);
+}
+
+.mets{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    
+}
+
+.mets .bloc img{
+    width: 90%;
+    height: 45vh;
+}
+
+.mets .bloc{
+    background-color: white;
+    display: flex;
+    height:45vh ;
+    box-shadow: 1px 1px 5px black;
+    margin-bottom: 7%;
+}
+
+.bloc .secondPart{
+    padding: 4% 4% 3% 2% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.end{
+    text-align: end;
+    font-size: 20px;
+}
+
+.mets-coffee{
+    background-color: white;
+    height: 40vh;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+}
+
+.mets-coffee .blc{
+    display: flex;
+    width: 50%;
+    gap: 2%;
+}
+
+ .blc img{
+    border-radius: 50%;
+    width: 20%;
+    height: 15vh;
+}
+
+.blc-text{
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+    justify-content: center;
+    gap: 15px;
+    color: rgb(88, 39, 3);
+}
+
+.access{
+    
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+    height: 120vh;
+}
+
+.access .entete{
+    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-size{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.access .info{
+    display: flex;
+    gap: 10%;
+}
+
+.iframe-contact{
+    width: 100%;
+    
+}
+
+.frame_child{
+    width: 100%;
+    height: 83vh;
+}
